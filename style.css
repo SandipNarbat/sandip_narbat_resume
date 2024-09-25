@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 60px 100px;
+    font-family: sans-serif;
+}
+
+header{
+    text-align: center;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding-bottom: 8px;
+}
+.contact a{
+    text-decoration: none;
+    color: black;
+}
+.line{
+    height: 2px;
+    width: 100%;
+    background: #000;
+    opacity: 0.2;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.line1{
+    height: 2px;
+    width: 100%;
+    background: #000;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+header h1{
+    padding-bottom: 10px;
+    text-transform: capitalize ;
+}
+h1{
+    text-transform: uppercase;
+}
+
+h2{
+    margin-bottom: 4px;
+    margin-top: 8px;
+}
+ul{
+    margin-left: 24px;
+}
+li{
+    margin-bottom: 8px;
+}
+
+.education h2,.certification h2{
+    margin-bottom: 8px;
+}
+
+
+@media only screen and (max-width:428px){
+    body{
+        padding: 20px 24px;
+        font-family: sans-serif;
+    }
+    h1{
+        font-size: 16px;
+    }
+    h2{
+        font-size: 14px;
+    }
+    .contact {
+        font-size: 12px;
+        flex-wrap: wrap;
+        padding-bottom: 0px;
+        gap: 4px 20px;
+    }
+    ul{
+        font-size: 12px;
+    }
+    .line{
+        height: 1px;
+        margin-bottom: 4px;
+        margin-top: 4px;
+    }
+    .line1{
+        height: 1px;
+        margin-bottom: 4px;
+        margin-top: 4px;
+    }
+    p{
+        font-size: 12px;
+    }
+}
